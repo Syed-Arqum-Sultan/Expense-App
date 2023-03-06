@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.body-class{
+  background-color: #17181F;
+  color:ivory;
+}
+
+
+.main-content{
+  max-width:360px;
+  margin: 0 auto;
+
+}
+
+.main-heading{
+ text-align: center;
+ color: #fff;
+ margin: 0;
+ margin-top:50px ;
+ font: 5.5rem;
+
+}
+.main-heading span{
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 7px;
+}
+.main-form{
+  margin-top: 20px;
+  
+
+} 
+.form-input{
+  width:100%;
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid #30313d;
+  font-size: 1rem;
+
+
+}
+.form-input1{
+  color:#ddd;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 1px 2px;
+
+}
+.form-btn{
+  width: 100%;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.basic{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+  
+  border-radius: 5px;
+
+}
+.transactions{
+  margin-top: 10px;
+
+
+}
+.transaction{
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-between;
+  border-top: 1px solid #30313d;
+
+}
+.transaction first-child{
+  border-top: 0;
+}
+.name{
+  font-size: 1rem;
+}
+.description{
+
+}
+.description input{
+ 
+  background-color: transparent;
+  width: 100%;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.right{
+  text-align: right;
+}
+
+.price-green{
+  color: #1c1;
+}
+.price-red{
+  color: #c11;
+}
+.datetime{
+  font: size 7rem ;
+  color: #888;
+}
