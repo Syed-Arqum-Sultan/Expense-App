@@ -17,6 +17,7 @@ app.get('/api/test', (req,res)=>{
 
 
 app.post('/api/transactions',async (req,res)=>{
+//   mongoose.set('strictQuery', true);
   await mongoose.connect(process.env.MONGO_URI);  
   const{name, description, datetime, price } = req.body;
   //grabbing the information from req.body and providing to transaction model

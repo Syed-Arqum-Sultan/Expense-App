@@ -83,7 +83,7 @@ function addNewTransaction(ev){
         </form>
         <div className='transactions'>
           {transactions.length> 0  && transactions.map(transaction =>  (
-             <div className='transaction'>
+             <div className='transaction' key={transaction.datetime}>
              <div className='left'>
                <div className='name'> {transaction.name}</div>
                <div className='description1'>{transaction.description}</div>
